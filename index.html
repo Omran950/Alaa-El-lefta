@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/Screenshot 2024-03-15 163025.png" />
+    <title>Alaa Ramadan Akwa Lefta</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section
+      id="home"
+      class="d-flex flex-column align-items-center py-5 text-center"
+    >
+      <h1>Strongest Alaa Ever</h1>
+      <section id="inputs" class="w-75 m-auto py-4 my-3">
+        <div class="d-flex justify-content-center gap-1 align-items-baseline">
+          <i class="fa-solid fa-bookmark"></i>
+          <p>
+            Please click the button below to know Who is the strongest
+            <span class="fw-bolder">Alaa</span> ever
+          </p>
+          <i class="fa-solid fa-bookmark"></i>
+        </div>
+        <button
+          id="btn"
+          class="btn d-block w-25 m-auto mt-4"
+          onclick="getAlaa();"
+        >
+          Search
+        </button>
+        <button
+          id="btn-again"
+          class="btn px-3 py-2 d-block w-25 m-auto mt-4 d-none"
+          onclick="tryAgain();"
+        >
+          Try Again
+        </button>
+        <figure id="fig" class="mt-4 overflow-hidden d-none">
+          <p>The Winner Is :</p>
+          <h2 class="text-center">Alaa Ramadan</h2>
+          <img
+            src="Images/Screenshot 2024-03-15 162609.png"
+            alt=""
+            class="d-block m-auto"
+          />
+        </figure>
+        <figure id="fig2" class="mt-4 overflow-hidden d-none">
+          <p>
+            Sorry , No other Alaa was Found
+            <i class="fa-solid fa-face-sad-tear"></i>
+          </p>
+          <p>And the Strongest Alaa is :</p>
+          <h2 class="text-center">Alaa El Lefta</h2>
+          <img
+            src="Images/Screenshot 2024-03-15 163025.png"
+            alt=""
+            class="d-block m-auto"
+          />
+        </figure>
+      </section>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
